@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru" data-mode="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Студия 46 — фотостудия в Архангельске</title>
+  <meta name="description" content="Светлый и тёмный залы для фото- и видеосъёмки в Архангельске. Потолки 4,5 м, дневной и студийный свет, онлайн-бронирование." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/photos/vk/light-prop.jpg" />
+</head>
+<body>
+  <a class="skip" href="#main">К содержанию</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Студия 46 — наверх">
+      <span class="brand__name">Студия 46</span>
+      <span class="brand__place">Архангельск</span>
+    </a>
+
+    <nav class="nav" aria-label="Основная">
+      <a href="#halls">Залы</a>
+      <a href="#sets">Сцены</a>
+      <a href="#kit">Оборудование</a>
+      <a href="#rates">Тарифы</a>
+      <a href="#find">Как пройти</a>
+      <a href="#works">Снято здесь</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="mode-switch" role="group" aria-label="Режим зала">
+        <button type="button" data-mode="light" class="is-active" aria-pressed="true">Светлый</button>
+        <button type="button" data-mode="dark" aria-pressed="false">Тёмный</button>
+      </div>
+      <a class="btn btn--solid" href="https://dikidi.ru/ru/profile/studiya_46_800965" target="_blank" rel="noopener">Забронировать</a>
+    </div>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Меню">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div id="mobile-nav" class="mobile-nav" hidden>
+    <a href="#halls">Залы</a>
+    <a href="#sets">Сцены</a>
+    <a href="#kit">Оборудование</a>
+    <a href="#rates">Тарифы</a>
+    <a href="#find">Как пройти</a>
+    <a href="#works">Снято здесь</a>
+    <a class="btn btn--solid" href="https://dikidi.ru/ru/profile/studiya_46_800965" target="_blank" rel="noopener">Забронировать</a>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero__media" aria-hidden="true">
+        <img class="hero__img hero__img--light is-active" src="assets/photos/vk/light-hero.jpg" alt="" width="1600" height="1067" fetchpriority="high" />
+        <img class="hero__img hero__img--dark" src="assets/photos/vk/dark-hero.jpg" alt="" width="1200" height="1600" />
+        <div class="hero__veil"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="eyebrow">Фотостудия · Гагарина, 46 · ТЦ «БУМ»</p>
+        <h1 class="hero__title">
+          <span data-copy="light">Светлый зал — окна, циклорама, воздух</span>
+          <span data-copy="dark" hidden>Тёмный зал — контролируемый свет и низкий ключ</span>
+        </h1>
+        <p class="hero__lead">
+          <span data-copy="light">Потолки 4,5 м, солнечная сторона, блэкаут когда нужен контроль. Декор переставляется под задачу.</span>
+          <span data-copy="dark" hidden>Тёмный пол и стены, импульсный и постоянный свет в аренде. Для портрета, fashion и контента без «лишнего» интерьера.</span>
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--solid" href="https://dikidi.ru/ru/profile/studiya_46_800965" target="_blank" rel="noopener">Забронировать онлайн</a>
+          <a class="btn btn--ghost" href="#halls">Сравнить залы</a>
+        </div>
+        <p class="hero__meta">Работаем по записи · 09:00–21:00 · чай и кофе бесплатно</p>
+      </div>
+    </section>
+
+    <section class="section halls" id="halls">
+      <div class="section__head">
+        <p class="eyebrow">Выбор режима</p>
+        <h2>Два зала — две логики света</h2>
+        <p class="section__lead">Сначала выберите характер съёмки. Потом смотрите цену и слот.</p>
+      </div>
+
+      <div class="hall-grid">
+        <article class="hall hall--light">
+          <figure class="hall__figure">
+            <img src="assets/photos/vk/light-window.jpg" alt="Светлый зал: окно, дерево, мобильный фон" width="1200" height="900" loading="lazy" />
+            <figcaption class="source-tag">материалы студии</figcaption>
+          </figure>
+          <div class="hall__body">
+            <h3>Светлый зал</h3>
+            <ul class="spec-list">
+              <li><span>Свет</span><strong>дневной + блэкаут</strong></li>
+              <li><span>Высота</span><strong>4,5 м</strong></li>
+              <li><span>Сцена</span><strong>циклорама, цветные фоны</strong></li>
+              <li><span>В аренде</span><strong>постоянный и импульсный свет</strong></li>
+            </ul>
+            <p class="hall__price">от <strong>1 600 ₽</strong> / час · будни</p>
+            <button type="button" class="text-link" data-mode="light">Смотреть в светлом режиме</button>
+          </div>
+        </article>
+
+        <article class="hall hall--dark">
+          <figure class="hall__figure">
+            <img src="assets/photos/vk/dark-space.jpg" alt="Тёмный зал: окно, шторы, стулья" width="1200" height="1600" loading="lazy" />
+            <figcaption class="source-tag">материалы студии</figcaption>
+          </figure>
+          <div class="hall__body">
+            <h3>Тёмный зал</h3>
+            <ul class="spec-list">
+              <li><span>Свет</span><strong>студийный, низкий ключ</strong></li>
+              <li><span>Характер</span><strong>контраст, силуэт, контроль</strong></li>
+              <li><span>В аренде</span><strong>импульс + постоянный свет</strong></li>
+              <li><span>Для кого</span><strong>портрет, fashion, контент</strong></li>
+            </ul>
+            <p class="hall__price">от <strong>1 200 ₽</strong> / час · будни</p>
+            <button type="button" class="text-link" data-mode="dark">Смотреть в тёмном режиме</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section sets" id="sets">
+      <div class="section__head">
+        <p class="eyebrow">Мобильность</p>
+        <h2>Одна аренда — несколько кадров</h2>
+        <p class="section__lead">Бумажные и тканевые фоны, мебель и реквизит переставляются. Меняете сцену — не меняете локацию.</p>
+      </div>
+
+      <div class="set-rail" tabindex="0">
+        <figure class="set-card">
+          <img src="assets/photos/vk/light-colors.jpg" alt="Цветные стены и мебель" loading="lazy" />
+          <figcaption><span>Цветные плоскости</span><em>материалы студии</em></figcaption>
+        </figure>
+        <figure class="set-card">
+          <img src="assets/photos/vk/light-prop.jpg" alt="Деталь реквизита у терракотовой стены" loading="lazy" />
+          <figcaption><span>Реквизит и фактуры</span><em>материалы студии</em></figcaption>
+        </figure>
+        <figure class="set-card">
+          <img src="assets/photos/vk/light-wide.jpg" alt="Светлый зал с мягким боксом и коврами" loading="lazy" />
+          <figcaption><span>Сет под портрет</span><em>материалы студии</em></figcaption>
+        </figure>
+        <figure class="set-card">
+          <img src="assets/photos/vk/dark-detail.jpg" alt="Деталь тёмного зала" loading="lazy" />
+          <figcaption><span>Тёмный режим</span><em>материалы студии</em></figcaption>
+        </figure>
+        <figure class="set-card set-card--web">
+          <img src="https://images.unsplash.com/photo-1471342113477-654b5027d9cd?auto=format&fit=crop&w=1200&q=80" alt="Студийный свет и софтбокс — атмосферный референс" loading="lazy" />
+          <figcaption><span>Свет в работе</span><em>из интернета · Unsplash</em></figcaption>
+        </figure>
+        <figure class="set-card set-card--web">
+          <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80" alt="Работа с фоном — атмосферный референс" loading="lazy" />
+          <figcaption><span>Фоны и глубина</span><em>из интернета · Unsplash</em></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section kit" id="kit">
+      <div class="section__head">
+        <p class="eyebrow">Call sheet</p>
+        <h2>Что уже на площадке</h2>
+        <p class="section__lead">Без иконок «преимуществ» — список того, с чем можно работать сразу после входа.</p>
+      </div>
+
+      <div class="kit-layout">
+        <div class="callsheet">
+          <div class="callsheet__block">
+            <h3>Свет</h3>
+            <ul>
+              <li>2 постоянных источника (в аренде зала)</li>
+              <li>Импульсные источники (в аренде зала)</li>
+              <li>Софтбоксы, рефлекторы, портретная тарелка</li>
+              <li>Тубус, соты, шторки, цветные фильтры</li>
+              <li>Отражатель, стойки, журавль (по запросу)</li>
+            </ul>
+          </div>
+          <div class="callsheet__block">
+            <h3>Фоны и декор</h3>
+            <ul>
+              <li>Бумажные: синий, зелёный, жёлтый, бордовый, крафт</li>
+              <li>Тканевые фоны и драпировки</li>
+              <li>Мобильная мебель, стулья, ковры</li>
+              <li>Мелкий реквизит под смену сценария</li>
+            </ul>
+          </div>
+          <div class="callsheet__block">
+            <h3>Сервис</h3>
+            <ul>
+              <li>Гримёрка на 2 места (визажист + стилист)</li>
+              <li>Отпариватель в зоне грима</li>
+              <li>Чай и кофе — бесплатно</li>
+              <li>Колонки, вентиляторы</li>
+            </ul>
+          </div>
+          <p class="callsheet__note">Доп. источники, фотофонарь, гибкие зеркала — по запросу при бронировании. Актуальный список допов уточняйте у администратора.</p>
+        </div>
+
+        <figure class="kit-visual">
+          <img src="assets/photos/vk/pp-equip.jpg" alt="Оборудование и пространство студии" loading="lazy" />
+          <figcaption class="source-tag">материалы студии</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section rates" id="rates">
+      <div class="section__head">
+        <p class="eyebrow">Прозрачные цифры</p>
+        <h2>Тарифы аренды</h2>
+        <p class="section__lead">Цены ориентировочные по открытым источникам студии. Перед бронью сверяйте актуальный прайс в Dikidi.</p>
+      </div>
+
+      <div class="rate-table" role="table" aria-label="Тарифы залов">
+        <div class="rate-table__row rate-table__row--head" role="row">
+          <span role="columnheader">Зал</span>
+          <span role="columnheader">Будни</span>
+          <span role="columnheader">Выходные</span>
+        </div>
+        <div class="rate-table__row" role="row">
+          <span role="cell"><strong>Светлый</strong></span>
+          <span role="cell">1 600 ₽ / час</span>
+          <span role="cell">2 000 ₽ / час</span>
+        </div>
+        <div class="rate-table__row" role="row">
+          <span role="cell"><strong>Тёмный</strong></span>
+          <span role="cell">1 200 ₽ / час</span>
+          <span role="cell">1 400 ₽ / час</span>
+        </div>
+      </div>
+
+      <ul class="rate-notes">
+        <li>Есть слоты от 30 минут — смотрите в Dikidi.</li>
+        <li>Бронь фиксируется предоплатой.</li>
+        <li>Оплата картой и QR доступна.</li>
+      </ul>
+
+      <a class="btn btn--solid" href="https://dikidi.ru/ru/profile/studiya_46_800965" target="_blank" rel="noopener">Открыть календарь</a>
+    </section>
+
+    <section class="section find" id="find">
+      <div class="section__head">
+        <p class="eyebrow">Важно</p>
+        <h2>Как нас найти</h2>
+        <p class="section__lead">В ТЦ «БУМ» навигация запутанная — ниже короткая схема, чтобы не потерять время до съёмки.</p>
+      </div>
+
+      <ol class="steps">
+        <li>
+          <strong>Адрес</strong>
+          <p>Архангельск, ул. Гагарина, 46 · ТЦ «БУМ» · помещение 507</p>
+        </li>
+        <li>
+          <strong>Не перепутайте здание</strong>
+          <p>ТЦ «БУМ» — это не швейная фабрика. Ориентир: вход со стороны «Союза» / левый вход.</p>
+        </li>
+        <li>
+          <strong>Этаж</strong>
+          <p>На лифте — кнопка <em>4</em>. По лестнице — 5 этаж.</p>
+        </li>
+        <li>
+          <strong>На месте</strong>
+          <p>Администратор встретит. Работаем только по предварительной записи.</p>
+        </li>
+      </ol>
+
+      <div class="find-contacts">
+        <a href="tel:+79115940046">+7 (911) 594-00-46</a>
+        <a href="https://vk.ru/studio46_arh" target="_blank" rel="noopener">VK · studio46_arh</a>
+        <a href="https://2gis.ru/arkhangelsk/firm/70000001063091503" target="_blank" rel="noopener">Открыть в 2ГИС</a>
+      </div>
+    </section>
+
+    <section class="section works" id="works">
+      <div class="section__head">
+        <p class="eyebrow">Доказательства</p>
+        <h2>Снято здесь</h2>
+        <p class="section__lead">Кадры гостевых съёмок и атмосфера площадки. Студийные материалы отделены от внешних референсов.</p>
+      </div>
+
+      <div class="works-grid">
+        <figure>
+          <img src="assets/photos/vk/shot-01.jpg" alt="Съёмка в студии" loading="lazy" />
+          <figcaption class="source-tag">материалы студии</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/vk/shot-03.jpg" alt="Съёмка в студии" loading="lazy" />
+          <figcaption class="source-tag">материалы студии</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/vk/shot-05.jpg" alt="Съёмка в студии" loading="lazy" />
+          <figcaption class="source-tag">материалы студии</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/vk/shot-07.jpg" alt="Съёмка в студии" loading="lazy" />
+          <figcaption class="source-tag">материалы студии</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/vk/shot-08.jpg" alt="Съёмка в студии" loading="lazy" />
+          <figcaption class="source-tag">материалы студии</figcaption>
+        </figure>
+        <figure class="works-grid__web">
+          <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=1200&q=80" alt="Студийная камера — атмосферный референс" loading="lazy" />
+          <figcaption class="source-tag source-tag--web">из интернета · Unsplash</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section cta-final" id="book">
+      <h2>Готовы снимать?</h2>
+      <p>Выберите зал в Dikidi, внесите предоплату — слот ваш.</p>
+      <div class="hero__cta">
+        <a class="btn btn--solid" href="https://dikidi.ru/ru/profile/studiya_46_800965" target="_blank" rel="noopener">Забронировать</a>
+        <a class="btn btn--ghost" href="tel:+79115940046">Позвонить</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Студия 46</strong>
+      <p>Фотостудия в Архангельске · аренда залов · фото и видео</p>
+    </div>
+    <div>
+      <p>ИП Пацкая М. А.</p>
+      <p><a href="CREDITS.md">Источники фото</a> · <a href="DESIGN-BRIEF.md">Дизайн-бриф</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

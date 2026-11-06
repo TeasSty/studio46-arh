@@ -1,0 +1,6 @@
+_tmp_*.html
+*.bin
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
